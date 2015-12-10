@@ -1,0 +1,15 @@
+<div class="container">
+
+
+  <ul ng-if="!main.isAuthenticated()" class="nav navbar-nav pull-right">
+    <li>
+      <button type="button" class="btn btn-lg btn-success" ng-click="main.authenticate('google')">login</button>
+    </li>
+  </ul>
+  <ul ng-if="main.isAuthenticated()" class="nav navbar-nav pull-right">
+    <li><
+      <button type="button" class="btn btn-lg btn-success" ng-click="main.logout()">logout</button>
+    </li>
+  </ul>
+
+</div>
