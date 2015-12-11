@@ -29,6 +29,10 @@
       clientId: '726919547477-6aesclcdq0gii35lqia3etkhr98ade30.apps.googleusercontent.com'
     });
 
+    $authProvider.twitch({
+      clientId: 'fstvw34i54uujty8mdlzh6vuro5esfc'
+    });
+
 
   }
 

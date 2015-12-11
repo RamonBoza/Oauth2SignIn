@@ -4,6 +4,9 @@
   <ul ng-if="!main.isAuthenticated()" class="nav navbar-nav pull-right">
     <li>
       <button type="button" class="btn btn-lg btn-success" ng-click="main.authenticate('google')">login</button>
+      <button class="btn btn-block btn-twitch" ng-click="main.authenticate('twitch')">
+        Sign in with Twitch
+      </button>
     </li>
   </ul>
   <ul ng-if="main.isAuthenticated()" class="nav navbar-nav pull-right">
