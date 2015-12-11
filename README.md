@@ -34,6 +34,12 @@ bower install satellizer --save
 ### execution
 When we want to deploy a server that will expose the client we just execute:
 
+Install preconditions:
+```
+npm install && bower install
+```
+
+Execute:
 ```
 gulp serve
 ```
