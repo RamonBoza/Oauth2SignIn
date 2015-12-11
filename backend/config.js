@@ -6,5 +6,6 @@ module.exports = {
 
   // OAuth 2.0
   GOOGLE_SECRET: process.env.GOOGLE_SECRET || 'pT7KnOKgS_0nFw6G-2YxOzk5',
+  TWITCH_SECRET: process.env.TWITCH_SECRET || 'kxibaqos7klpami3p7n5wc1yjozvvaq'
   
 };
